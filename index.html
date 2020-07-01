@@ -1,0 +1,14 @@
+---
+layout: default
+title: The Basic Lifestyle
+---
+
+
+<!-- Products -->
+
+{% for product in site.products %}
+<div class="docs-section" id="grid">
+  <a href="{{ product.url }}"><h6 class="docs-header">{{ product.title }}</h6></a>
+  <p>{{ product.desc }}</p>
+</div>
+{% endfor %}

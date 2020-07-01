@@ -1,0 +1,32 @@
+{
+	"dir" : "ltr",
+	"lang" : "en",
+	"name" : "The Basic Lifestyle",
+	"scope" : "/",
+	"display" : "standalone",
+	"start_url" : "https://thebasiclifestyle.github.io/",
+	"short_name" : "TBL",
+	"theme_color" : "transparent",
+	"description" : "CEO of Basics",
+	"orientation" : "portrait",
+	"background_color" : "transparent",
+	"related_applications" : [],
+	"prefer_related_applications" : false,
+	"icons" : [
+		{
+			"src": "https://thebasiclifestyle.github.io/favicon.ico",
+			"sizes": "16x16 32x32 48x48"
+		},
+		{
+		      	"src": "https://thebasiclifestyle.github.io/images/android-icon-192x192.png",
+		      	"type": "image/png",
+		      	"sizes": "192x192"
+		},
+		{
+			"src": "https://thebasiclifestyle.github.io/images/favicon.png",
+			"sizes": "16x16"
+		}],
+	"url" : "https://thebasiclifestyle.github.io/",
+	"screenshots" : [],
+	"generated" : "true"
+}

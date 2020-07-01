@@ -1,1 +1,1 @@
-# thrifts.github.io
+# thebasiclifestyle.github.io

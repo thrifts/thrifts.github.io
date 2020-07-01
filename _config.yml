@@ -1,0 +1,23 @@
+url: "https://thebasiclifestyle.com"
+
+apii: "YzQ3MTU1ZjgtMjgwYi00MTQ2LWIxYzUtZDkwNTQ2NTBkZDIyNjM3MjcwNTQ2MDU5MTI5ODMx"
+
+permalink: /:title
+
+collections:
+  products:
+    output: true
+    permalink: /:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "products"
+    values:
+      layout: "product"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

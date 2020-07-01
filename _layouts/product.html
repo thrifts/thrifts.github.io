@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<!-- Intro -->
+<div class="docs-section" id="intro">
+  <h6 class="docs-header">{{ page.title }}</h6>
+  <p>{{ page.desc }}</p>
+</div>
+
+<div class="docs-section" id="grid">
+  <div class="row docs-example u-max-full-width">
+  <img class="example-screenshot" src="{{ page.image }}">
+  </div>
+</div>
+
+<div class="docs-section" id="grid" style="text-align:center;">
+  <h3>₹ {{ page.price }}</h3>
+  <p>inclusive of all taxes</p>
+  <button class="button-primary snipcart-add-item"
+  data-item-id="{{ page.name }}"
+  data-item-price="{{ page.price }}"
+  data-item-url="{{ page.url }}"
+  data-item-description="{{ page.desc }}"
+  data-item-image="{{ page.image }}"
+  data-item-name="{{ page.title }}"
+  data-item-custom1-name="Color"
+  data-item-custom1-options="{{ page.color }}"
+  data-item-custom2-name="Size"
+  data-item-custom2-options="{{ page.size }}">
+  Add to cart
+  </button>
+</div>
+
+{{ content }}
+
+<hr>
